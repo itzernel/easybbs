@@ -2,6 +2,9 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.7'
 
+gem 'gravatar_image_tag'
+gem 'will_paginate'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -28,6 +31,7 @@ gem 'sqlite3'
 # and rake tasks are available in development mode:
  group :development do
    gem 'rspec-rails'
+   gem 'annotate-models'
    gem 'web-app-theme', '>= 0.6.2'
  end
  group :test do
